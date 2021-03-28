@@ -1,0 +1,16 @@
+[package]
+name = "tectonic_engine_xdvipdfmx"
+version = "0.1.0"
+authors = ["Ryan Farmer <ryan_a_farmer@icloud.com>"]
+edition = "2018"
+
+[build-dependencies]
+cc = "*"
+cbindgen = "0.16.0"
+
+[dependencies]
+libc = "^0.2"
+tectonic_bridge_core = { path = "../bridge_core" }
+tectonic_status_base = { path = "../status_base" }
+tectonic_io_base = { path = "../io_base" }
+tectonic_errors = { path = "../errors" }
